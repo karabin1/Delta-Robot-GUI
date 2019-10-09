@@ -22,26 +22,21 @@
 ## Setup
 Install follow library:
 
-$ sudo apt-get install python3-pyqt5
-$ sudo apt-get install pyqt5-dev-tools
-$ sudo apt-get install qttools5-dev-tools
-$ sudo apt-get install python3-numpy
-$ sudo apt-get install python-matplotlib
-$ sudo apt-get install python3-opengl
+* $ sudo apt-get install python3-pyqt5
+* $ sudo apt-get install pyqt5-dev-tools
+* $ sudo apt-get install qttools5-dev-tools
+* $ sudo apt-get install python3-numpy
+* $ sudo apt-get install python-matplotlib
+* $ sudo apt-get install python3-opengl
 	
 and install Dynamixel library in home folder:
 
-S git clone https://github.com/ROBOTIS-GIT/DynamixelSDK
-$ cd ~/DynamixelSDK/python i następnie sudo python3 setup.py install
+* $ git clone https://github.com/ROBOTIS-GIT/DynamixelSDK
+* $ cd ~/DynamixelSDK/python i następnie sudo python3 setup.py install
 
 ## Run
 $ python3 delta.py
-
 Add data construct
-
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
 
 ## Status
 Project is: _in progress_
