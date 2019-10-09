@@ -35,8 +35,8 @@ and install Dynamixel library in home folder:
 * $ cd ~/DynamixelSDK/python i następnie sudo python3 setup.py install
 
 ## Run
-$ python3 delta.py
-Add data construct
+* $ python3 delta.py
+* Add data construct
 
 ## Status
 Project is: _in progress_
