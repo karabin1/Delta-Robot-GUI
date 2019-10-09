@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version		= 1.0
+Name		= DeltaRobot
+Comment		= Memory Game using Python and PyGame
+Exec		= python3 /home/dawid/Prywatne/Delta_en/Delta.py
+Path		= /home/dawid/Prywatne/Delta_en
+Icon 		= /home/dawid/Prywatne/Delta_en/DeltaIcon.jpg
+Terminal	= false
+Type		= Application
+Categories	= Utility;Application;
+Name[pl]	= DeltaRobot
