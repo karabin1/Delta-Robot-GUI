@@ -32,7 +32,8 @@ Install follow library:
 and install Dynamixel library in home folder:
 
 * $ git clone https://github.com/ROBOTIS-GIT/DynamixelSDK
-* $ cd ~/DynamixelSDK/python i następnie sudo python3 setup.py install
+* $ cd ~/DynamixelSDK/python
+* $ sudo python3 setup.py install
 
 ## Run
 * $ python3 delta.py
