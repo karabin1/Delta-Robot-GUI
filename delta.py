@@ -1,3 +1,6 @@
+# Author Dawid Karabon 
+# Github karabin1
+
 import sys
 import numpy as np
 from PyQt5           import QtCore
@@ -90,12 +93,12 @@ class MainWindow(QMainWindow):
     def initWindow(self):                                                       
         self.setWindowTitle("Delta Robot Studio")                               
         self.setGeometry(0, 0, 790, 470)                                        
-        self.setMaximumSize(790, 470)
-        self.showMaximized()
-        mainMenu    = self.menuBar()                                            
-        windowMenu  = mainMenu.addMenu('Window')                                  
-        motorMenu   = mainMenu.addMenu('Connect motors')                   
-        kardanMenu   = mainMenu.addMenu('Cardan Joint')                   
+        #self.setMaximumSize(790, 470)
+        #self.showMaximized()
+        mainMenu   = self.menuBar()                                            
+        windowMenu = mainMenu.addMenu('Window')                                  
+        motorMenu  = mainMenu.addMenu('Connect motors')                   
+        kardanMenu = mainMenu.addMenu('Cardan Joint')                   
         
         self.mainLayout = QHBoxLayout()                                         
         
@@ -257,11 +260,11 @@ class MainWindow(QMainWindow):
         self.dockSequenceTool.setFeatures(QDockWidget.DockWidgetMovable)
         self.dockSequence.setFeatures    (QDockWidget.DockWidgetMovable)
         
-        self.dockConstructItem      = construct_class   (self)                          
-        self.dockControlItem        = controll_class    (self)
-        self.dockDataResultItem     = dataResult_class  (self)
-        self.dockSequenceToolItem   = sequenceTool_class(self)
-        self.dockSequenceItem       = sequence_class    (self)
+        self.dockConstructItem    = construct_class   (self)                          
+        self.dockControlItem      = controll_class    (self)
+        self.dockDataResultItem   = dataResult_class  (self)
+        self.dockSequenceToolItem = sequenceTool_class(self)
+        self.dockSequenceItem     = sequence_class    (self)
         
         self.dockConstruct.setWidget    (self.dockConstructItem  )
         self.dockControl.setWidget      (self.dockControlItem    )

@@ -54,9 +54,14 @@ class sequenceTool_class(QWidget):
         self.buttons[1].setStyleSheet('color: black; background-color: green;') 
         self.buttons[2].setStyleSheet('color: black; background-color: red;') 
         
-        self.sequence_layout.addLayout(data_layout)                           
+        self.author = QLabel("Github: karabin1")
+        data_layout.addWidget(self.author)
+
+        self.sequence_layout.addLayout(data_layout)      
+
     def butt1(self):
-            self.send_sequenceTool.emit(self.spinDelay.value())
+        self.send_sequenceTool.emit(self.spinDelay.value())
+
     def butt2(self):
         self.send_sequenceToolStart.emit(self.spinSpeed.value(), dataSequence)
         
