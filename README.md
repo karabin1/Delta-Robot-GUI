@@ -11,7 +11,7 @@
 * [Status](#status)
 
 ## Screenshots
-![Example screenshot](.konstrukcja.png)
+![Example screenshot](delta_screenshot.png)
 
 ## Technologies
 * Python 	3.5.2
